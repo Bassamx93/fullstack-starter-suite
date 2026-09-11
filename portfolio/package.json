@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start -p 3001",
     "lint": "next lint",
-    "test:unit": "jest --config=jest.config.js --passWithNoTests",
+    "test:unit": "jest --config=jest.config.js --passWithNoTests --coverage",
     "test": "npm run test:unit && node ./tests/test-posts.js"
   },
   "dependencies": {
